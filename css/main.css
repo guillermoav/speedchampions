@@ -114,3 +114,28 @@ a>.img_100:hover {
 .img_logo_juguetron {
 	width: 215px;
 }
+/**countdown**/
+.countdown__container--item {
+    flex-direction: column;
+}
+@media (min-width: 800px){	
+	.countdown {
+	    font-size: 80px;
+	}
+}
+.countdown {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin: 0;
+}
+.countdown__time--container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown__time {
+    font-size: 18px;
+    margin: 7px;
+    min-width: 73px;
+}
